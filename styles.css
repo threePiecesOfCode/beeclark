@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 img{
     border-radius: 50%;
 }
+
+/*#row-color{*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*Typewriter settings*/
+#typewriter{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*To bold certain key words*/
+.spanBold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.introBox{
+    font-size: 22px;
+}
+

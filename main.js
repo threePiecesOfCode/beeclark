@@ -1,13 +1,15 @@
+let words = ["SOLVING", "CREATING", "TRANSFORMING"];
 let app = document.getElementById('typewriter');
  
 let typewriter = new Typewriter(app, {
   loop: true,
-  delay: 75,
+  delay: 70,
 });
- 
-typewriter
-  .pauseFor(2000)
-  .typeString('Beeclark from Chile to the World!')
-  .pauseFor(1000)
-  .deleteChars(10)
-  .start();
+
+for(let word of words){
+  typewriter.pauseFor(1000);
+  typewriter.typeString(word);
+  typewriter.pauseFor(800);
+  typewriter.deleteChars(10);
+    }
+typewriter.start();
