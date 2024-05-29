@@ -7,9 +7,9 @@ let typewriter = new Typewriter(app, {
 });
 
 for(let word of words){
-  typewriter.pauseFor(1000);
+  typewriter.pauseFor(100);
   typewriter.typeString(word);
   typewriter.pauseFor(800);
-  typewriter.deleteChars(10);
+  typewriter.deleteChars(word.length);
     }
 typewriter.start();
