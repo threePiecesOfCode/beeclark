@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+body {
+    overflow-x: hidden;
+}
 /*img{*/
 /*    border-radius: 50%;*/
 /*}*/
@@ -12,8 +15,41 @@
 
 .mainImage{
     height:80px;
+    width: 50px;
 }
 
+/*.mainVideo{*/
+/*    object-fit: fill;*/
+/*    height: 885px;*/
+/*    width: 100vw;*/
+/*}*/
+
+/*.videoMain {*/
+/*    position: relative;*/
+/*    width: 100vw;*/
+/*    height: 500px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+video {
+    width: 100vw;
+    height: 900px;
+    object-fit: fill;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
 /*#row-color{*/
 /*    background-color: aqua;*/
 /*}*/
@@ -23,6 +59,23 @@
     font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
+}
+/*Agregar espacio al main parrafo*/
+#mainSentence{
+    margin-bottom: 1em;
+}
+
+/*Conrola la pocision de la caja gris*/
+#mainBox{
+    margin-left: 31em;
+    margin-top: 5em;
+}
+
+/*Controla los colores de la caja*/
+.typewritterbox{
+    background-color: rgba(14, 14, 21, 0.7);
+    /*border-radius: 20px;*/
+    padding: 2.5em;
 }
 
 /*To bold certain key words*/
