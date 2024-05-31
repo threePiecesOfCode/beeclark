@@ -65,10 +65,11 @@ video {
     margin-bottom: 1em;
 }
 
-/*Conrola la pocision de la caja gris*/
+/*Controla la pocision de la caja gris*/
 #mainBox{
     margin-left: 31em;
-    margin-top: 5em;
+    /*margin-top: 3em;*/
+    margin-bottom: 3em;
 }
 
 /*Controla los colores de la caja*/
