@@ -24,77 +24,34 @@ body {
     height:80px;
     width: 50px;
 }
-
-/*.mainVideo{*/
-/*    object-fit: fill;*/
-/*    height: 885px;*/
-/*    width: 100vw;*/
-/*}*/
-
-/*.videoMain {*/
-/*    position: relative;*/
-/*    width: 100vw;*/
-/*    height: 500px;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-video {
+/*----------------------------------------------------------------*/
+video{
     width: 100vw;
-    height: 900px;
+    height: 885px;
     object-fit: fill;
-    margin: 0;
-    padding: 0;
+    /*object-position: 50% 35%;*/
+    /*transform: scale(1);*/
 }
 
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 2rem;
-    text-align: center;
-}
-/*#row-color{*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*Typewriter settings*/
-#typewriter{
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-/*Agregar espacio al main parrafo*/
-#mainSentence{
-    margin-bottom: 1em;
+.video-section{
+    display: block;
 }
 
-/*Controla la pocision de la caja gris*/
-#mainBox{
-    margin-left: 31em;
-    /*margin-top: 3em;*/
-    margin-bottom: 3em;
+.beeclark-top-content {
+    display: block;
+    box-sizing: border-box;
+    all: unset;
+    unicode-bidi: isolate;
 }
 
-/*Controla los colores de la caja*/
-.typewritterbox{
-    background-color: rgba(14, 14, 21, 0.7);
-    /*border-radius: 20px;*/
-    padding: 2.5em;
+#row-color{
+    background-color: aqua;
 }
 
-/*To bold certain key words*/
-.spanBold{
-    font-weight: bold;
-    text-decoration: underline;
+.addColor{
+    background-color: red;
 }
 
-.introBox{
-    font-size: 22px;
-}
 
 /* Remove text underline */
 /* #typewriter {
@@ -103,3 +60,5 @@ video {
 footer{
     color: #fff;
 }
+
+
