@@ -3,7 +3,6 @@
 /* Implement font family to entire web*/
 *{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-style: normal;
     padding: 0;
     margin: 0;
@@ -38,12 +37,43 @@ body, html {
 
 .content {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 700px;
+    height: 600px;
+    display: block;
+    align-items: start;
+    justify-content: start;
+    /*overflow: auto;*/
+    top: 45%;
+    left: 70%;
     transform: translate(-50%, -50%);
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
     background-color: rgba(0,0,0,0.4);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 20px;
+}
+
+/*Typewritter Settings*/
+.typewritter{
+    font-size: 65px;
+    font-weight: bold; !important;
+    text-align: start;
+    margin-bottom: .1em;
+}
+
+.scada{
+    font-size: 65px;
+    font-weight: bold; !important;
+    text-align: start;
+    margin-bottom: .5em;
+}
+
+.intro{
+    text-align: start;
+    font-size: 24px;
 }
 
 
@@ -59,6 +89,8 @@ body, html {
     mix-blend-mode: overlay;
 }
 
+
+
 .logo{
     height: 80px;
     margin-right: 4em;
@@ -69,6 +101,8 @@ body, html {
     height:80px;
     width: 50px;
 }
+
+
 
 
 
