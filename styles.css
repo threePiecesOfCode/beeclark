@@ -113,8 +113,21 @@ h2{
 }
 
 /*Cards Design*/
+.card-container{
+    margin-bottom: 5em;
+}
 .card {
+    overflow: hidden;
+    position: relative;
     flex: 1 0 auto;
+    transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+    margin-left: 1em;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card-body {
@@ -123,6 +136,17 @@ h2{
 
 .services-subtitle{
     margin-bottom: 3em;
+}
+
+/*Card Image*/
+.card .card-img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+.card:hover .card-img{
+    transform: scale(1.1);
 }
 
 
