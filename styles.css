@@ -15,6 +15,13 @@ body, html {
     overflow-x: hidden;
 }
 
+body{
+        background-image: url("assets/images/beeclark-background-1.png");
+    background-size: cover;
+}
+
+
+
 /*--Video Settings---------------------------------*/
 .bg-video {
     position: relative;
@@ -83,8 +90,13 @@ h2{
 }
 
 #about, #services{
+    /*background-color: rgba(0,0,0,0.4);*/
     margin-top: 10em;
 }
+
+/*#about, #services{*/
+/*    background-image: url("assets/images/beeclark-background-1.png");*/
+/*}*/
 
 
 
