@@ -152,6 +152,18 @@ a{
     text-decoration: none;
 }
 
+/*Fade-In Animation*/
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+    transform: translateY(50px);
+}
+
+.fade-in.appear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 
 
