@@ -76,6 +76,16 @@ body, html {
     font-size: 24px;
 }
 
+/*Sections Design*/
+h2{
+    font-size: 40px;
+    font-weight: bold; !important;
+}
+
+#about, #services{
+    margin-top: 10em;
+}
+
 
 
 .overlay
@@ -102,6 +112,18 @@ body, html {
     width: 50px;
 }
 
+/*Cards Design*/
+.card {
+    flex: 1 0 auto;
+}
+
+.card-body {
+    min-height: 0;
+}
+
+.services-subtitle{
+    margin-bottom: 3em;
+}
 
 
 
