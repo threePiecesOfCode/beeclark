@@ -9,7 +9,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     overflow-x: hidden;
 }
@@ -23,7 +24,7 @@ body, html {
 .bg-video {
     position: relative;
     width: 100vw;
-    height: 65vh;
+    height: 90vh;
     overflow: hidden;
     background-size: fill;
 }
@@ -90,21 +91,6 @@ h2 {
     font-weight: bold;
 }
 
-#about, #services {
-    margin-top: 10em;
-}
-
-/* Capa de superposición */
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(81, 89, 89, 0.4);
-    mix-blend-mode: overlay;
-}
-
 /* Estilos del logotipo */
 .logo {
     height: 80px;
@@ -113,15 +99,16 @@ h2 {
 }
 
 
-.mainImage{
-    height:80px;
+.mainImage {
+    height: 80px;
     width: 50px;
 }
 
 /*Cards Design*/
-.card-container{
+.card-container {
     margin-bottom: 5em;
 }
+
 .card {
     overflow: hidden;
     position: relative;
@@ -132,7 +119,7 @@ h2 {
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -140,79 +127,97 @@ h2 {
     min-height: 0;
 }
 
-.services-subtitle{
-    margin-bottom: 3em;
-}
-
-/*Card Image*/
-.card .card-img {
-    transition: transform 0.3s ease;
-    width: 100%;
-    height: auto;
-}
-
-.card:hover .card-img{
-    transform: scale(1.1);
-}
-
-
-
-
 /* Remove text underline */
 /* #typewriter {
     text-decoration: none;
 } */
-#nav-1{
+#nav-1 {
     background-color: #1a61b3;
 }
-.bi{
+
+.bi {
     color: white;
 }
 
-footer{
+footer {
     background-color: #4c3dcc;
     color: #fff;
     padding-bottom: 2em;
 }
 
-.bg-primary{
+.bg-primary {
     background-color: #1c0374;
 }
 
-a{
-    text-decoration: none;
-}
 
 /*Fade-In Animation*/
-.fade-in{
+.fade-in {
     opacity: 0;
     transition: opacity 250ms ease-in;
     transform: translateY(50px);
 }
 
-.fade-in.appear{
+.fade-in.appear {
     opacity: 1;
     transform: translateY(0);
 }
 
-.test{
+.test {
     background-color: rgba(0, 0, 0);
     color: #fff;
+}
 
+.orange {
+    color: #a05000;
+}
 
+.purple {
+    color: #170075;
+}
+
+/* some hover effects */
+a {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
 
 }
 
-#mision{
-
-    width: 600px;
-    height: 500px;
+#logo {
+    opacity: 1;
+    /* Set the desired opacity (e.g., 1 for fully opaque) */
+    text-decoration: none;
+    /* Remove any text decoration (e.g., underline) */
 }
 
-
-.img-fluid{
-    width: 800px;
-    height: 500px;
+/* Optional: Restore opacity on hover (if needed) */
+.logo:hover {
+    opacity: 1;
+    /* Set the desired opacity on hover */
 }
 
+.carousel{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
 
+/* Center the alert vertically and horizontally */
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    /* background-color: #f9f9f9; */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    z-index: 9999; /* Ensure it's on top of other elements */
+}
